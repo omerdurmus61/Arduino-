@@ -1,0 +1,3 @@
+Mikrodenetlercinin bir pinine butona basılmadığı durumlarda lojik 0 basıldığı durumda ise lojik 1 bilgisinin gitmesini istersek , pull down direncini kullanırız.Bu kullanımda butona basılınca +5V direk pine ulaşır ,basılmadığı durumda ise ulaşmaz.
+Bunların dışında parazitlerden dolayı oluşan ve bu yüzden butona basıldı etkisi yaratan ya da pine kararsız bir bilgi göndermesine neden olan durumları engellemek için butonu bir direnç ile GND'ye bağlarız.Direnci kullanma nedenimiz butona basıldığında +5V ile GND 
+yi kısa devre etmemek çünkü direnç olmaz ise akım direk GND'ye gider burada butona basıldığı durumda daha az direnç olan yolu tercih ediyor.Pull up direnç ise bu durumun tam tersidir.
